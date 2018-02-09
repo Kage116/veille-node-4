@@ -54,8 +54,8 @@ identifiant++;
 ////////////////////////////////////////////// Route : membres
 app.get('/membres', (req, res) => {
 	const fs = require('fs');
-	fs.readFile('public/data/membres.txt', "utf8", function (err, data) {
-		let collection = JSON.parse("["+data+"]");
+	fs.readFile('public/data/membre.json', "utf8", function (err, data) {
+		let collection = JSON.parse(data);
 		res.end(transforme_en_tableau(collection));
 	});
 })
