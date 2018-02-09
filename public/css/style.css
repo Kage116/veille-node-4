@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-  font-family: arial;
+  font-family: helvetica;
 }
 table {
   border-collapse: collapse;
@@ -17,7 +17,7 @@ table tr td {
   border: 1px solid darkred;
 }
 table tr th {
-  background: #333;
+  background: green;
   border: 1px solid #333;
   color: white;
 }
